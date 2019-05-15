@@ -13,7 +13,7 @@ public class OnlyEnglishChecker {
       Output : "Apple"
      */
 
-    public String returnOnlyLeftEnglishPart(String st, Context ct, boolean toastOn,String txt){
+    public static String returnOnlyLeftEnglishPart(String st, Context ct, boolean toastOn,String txt){
 
         String tempS = "";
         boolean tempFlag = true;
@@ -110,7 +110,7 @@ public class OnlyEnglishChecker {
       Input : "AppleআপেলApple_Juice"
       Output : "AppleApple_Juice"
      */
-    public String retunWholeEnglishPart(String st, Context ct, boolean toastOn,String txt){
+    public static String retunWholeEnglishPart(String st, Context ct, boolean toastOn,String txt){
 
         String tempS = "";
         boolean tempFlag = true;
