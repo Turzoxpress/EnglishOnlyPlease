@@ -5,6 +5,11 @@ import android.widget.Toast;
 
 public class OnlyEnglishChecker {
 
+    public static int plus(int a, int b){
+
+        return a+b;
+    }
+
     //---------------- 01
     //-- Checking the provided string has any foreign character, if has then function will return only left english part of the string
     /* Example :
