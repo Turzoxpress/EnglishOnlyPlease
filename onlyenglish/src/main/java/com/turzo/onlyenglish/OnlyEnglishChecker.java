@@ -16,6 +16,7 @@ public class OnlyEnglishChecker {
     public static String returnOnlyLeftEnglishPart(String st, Context ct, boolean toastOn,String txt){
 
         String tempS = "";
+        /*
         boolean tempFlag = true;
 
         for(int i=0; i<st.length(); i++){
@@ -94,6 +95,7 @@ public class OnlyEnglishChecker {
             }
 
         }
+        */
 
 
         return tempS;
